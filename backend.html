@@ -1,92 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio - Renz Maturino</title>
-
-    <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="gallery.css">
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Back-End Projects — Renz Oliver Maturino</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
-<!-- header section starts  -->
 
 <header>
-
-    <div class="user">
-        <img src="images/pic.jpg" alt="">
-        <h3 class="name">Renz Oliver Maturino</h3>
-        <p class="post">front end developer</p>
-    </div>
-
-    <nav class="navbar">
-        <ul>
-            <li><a href="index.html">home</a></li>
-            <li><a href="index.html">about</a></li>
-            <li><a href="index.html">education</a></li>
-            <li><a href="index.html">certificates</a></li>
-            <li><a href="portfolio.html">skills</a></li>
-            <li><a href="portfolio.html">portfolio</a></li>
-            <li><a href="index.html">contact</a></li>
-        </ul>
+  <div class="nav">
+    <a class="brand" href="index.html"><span class="brand__mark">RM</span><span>Renz Oliver Maturino<small>Full Stack Developer and Virtual Assistant</small></span></a>
+    <nav class="navlinks">
+      <a href="index.html#home">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#education">Education</a>
+      <a href="index.html#certificates">Certificates</a>
+      <a href="index.html#skills">Skills</a>
+      <a href="portfolio.html" class="active">Portfolio</a>
+      <a href="index.html#contact">Contact</a>
     </nav>
-
+    <div class="navcta"><a href="index.html#contact" class="btn sm ghost">Contact Me</a><button class="menu-btn" aria-label="Toggle menu"><i class="fas fa-bars"></i></button></div>
+  </div>
 </header>
 
-<!-- header section ends -->
-
-<div id="menu" class="fas fa-bars"></div>
-
-<section class="home" id="home">
-
-    <div class="portfolio">
-<h1> <i class="fa fa-tasks" aria-hidden="true"></i> MY <span>BACK-END</span> PROJECTS </h1>
-
-
-<div class="gallery">
-
-    <img src="images/back-end/pc.PNG" title="LITTLE LEMON 1"/>
-    <img src="images/back-end/backend8.PNG" title="LITTLE LEMON 2"/>
-    <img src="images/back-end/backend9.PNG" title="LITTLE LEMON 3"/>
-    <img src="images/back-end/backend10.PNG" title="LITTLE LEMON 3"/>
-    <img src="images/back-end/backend7.PNG" title="LITTLE LEMON 3"/>
-    <img src="images/back-end/backend5.png" title="LITTLE LEMON 3"/>
-    <img src="images/back-end/backend4.png" title="LITTLE LEMON 3"/>
+<main>
+<section class="page-hero">
+  <div class="wrap">
+    <div class="breadcrumb"><a href="portfolio.html">Portfolio</a> <i class="fas fa-chevron-right" style="font-size:.65rem;"></i> <span>Back-End</span></div>
+    <span class="eyebrow">Development</span>
+    <h1 class="section-title">My <span>Back-End</span> Projects</h1>
+    <p class="section-sub mb-0">Little Lemon restaurant app — server-side logic, database design and API work.</p>
   </div>
-  <br /> <br /> <br />
-<div class="gallery">
-
-    <img src="images/back-end/lemon1.jpg" title="LITTLE LEMON 1"/>
-    <img src="images/back-end/lemon2.jpg" title="LITTLE LEMON 2"/>
-    <img src="images/back-end/lemon3.jpg" title="LITTLE LEMON 3"/>
-
-  </div>
-
-</div>
 </section>
+<section style="padding-top:1rem;">
+  <div class="wrap"><div id="gallery-container"></div></div>
+</section>
+</main>
 
+<footer>
+  <div class="wrap footer__row">
+    <p>&copy; 2026 Renz Oliver Maturino. All rights reserved.</p>
+    <div class="social"><a href="mailto:renzmaturino28@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a><a href="index.html" aria-label="Home"><i class="fas fa-house"></i></a></div>
+  </div>
+</footer>
 
+<a href="#home" class="scrolltop" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></a>
 
-
-
-
-
-
-
-
-
-<!-- jquery cdn link  -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-<!-- custom js file link  -->
-<script src="script.js"></script>
-
-
+<script src="js/pages/backend-data.js"></script>
+<script src="js/gallery.js"></script>
+<script>renderProjectGroups('#gallery-container', PROJECT_GROUPS);</script>
+<script src="js/main.js"></script>
 </body>
 </html>

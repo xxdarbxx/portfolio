@@ -1,676 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio - Renz Maturino</title>
-
-    <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="gallery.css">
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Renz Oliver Maturino — Full Stack Developer and Virtual Assistant</title>
+<meta name="description" content="Portfolio of Renz Oliver Maturino — Full Stack Developer, Virtual Assistant and E-Commerce specialist based in Manila, Philippines.">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
-<!-- header section starts  -->
 
 <header>
-
-    <div class="user">
-        <img src="images/pic.jpg" alt="">
-        <h3 class="name">Renz Oliver Maturino</h3>
-        <p class="post">Front-End Developer</p>
-        <p class="post">Virtual Assistant</p>
-    </div>
-
-    <nav class="navbar">
-        <ul>
-            <li><a href="#home">home</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#education">education</a></li>
-            <li><a href="#certificates">certificates</a></li>
-            <li><a href="#skills">skills</a></li>
-            <li><a href="portfolio.html">portfolio</a></li>
-            <li><a href="#contact">contact</a></li>
-        </ul>
+  <div class="nav">
+    <a class="brand" href="index.html">
+      <span class="brand__mark">RM</span>
+      <span>Renz Oliver Maturino<small>Full Stack Developer and Virtual Assistant</small></span>
+    </a>
+    <nav class="navlinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#skills">Skills</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="#contact">Contact</a>
     </nav>
-
+    <div class="navcta">
+      <a href="portfolio.html" class="btn sm ghost">View Portfolio</a>
+      <button class="menu-btn" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
+    </div>
+  </div>
 </header>
 
-<!-- header section ends -->
+<main>
 
-<div id="menu" class="fas fa-bars"></div>
-
-<!-- home section starts  -->
-
-<section class="home" id="home">
-
-    <h3>HI THERE !</h3>
-    <h1>I'M <span>Renz Oliver Maturino</span></h1>
-    <p>I'm a Front-End Developer. I have serious passion for codings and creating intuitive, dynamic user experiences.
-    </p>
-    <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
-
+<section class="hero" id="home">
+  <div class="wrap hero__grid">
+    <div>
+      <span class="hero__kicker">Hi there, I'm Renz</span>
+      <h1>Building fast, clean web experiences &amp; running e-commerce operations that <span class="accent">convert</span>.</h1>
+      <p class="lead">Full Stack Developer and Virtual Assistant based in Manila, Philippines. I have a serious passion for coding and creating intuitive, dynamic user experiences — backed by 6+ years across e-commerce, VA work, and web development.</p>
+      <div class="hero__actions">
+        <a href="#about" class="btn">About Me <i class="fas fa-arrow-down"></i></a>
+        <a href="https://www.dropbox.com/scl/fi/dpyia1kk2qq28e61j5oyr/RenzMaturino2026.pdf?rlkey=va1l2y4t62bk1n2jg02ehoi3l&st=dspj9x79&e=1&dl=0" class="btn ghost" target="_blank" rel="noopener">Download CV <i class="fas fa-download"></i></a>
+      </div>
+      <div class="hero__stats">
+        <div><b data-count="70" data-suffix="+">0</b><span>Certificates Earned</span></div>
+        <div><b data-count="300" data-suffix="+">0</b><span>Projects Completed</span></div>
+        <div><b data-count="6" data-suffix="+">0</b><span>Years Experience</span></div>
+      </div>
+    </div>
+    <div class="hero__portrait">
+      <div class="ring"></div>
+      <img src="images/pic.jpg" alt="Renz Oliver Maturino">
+      <div class="hero__badge"><i class="fas fa-map-marker-alt"></i><div><b>Manila, PH</b><span>Available for work</span></div></div>
+    </div>
+  </div>
 </section>
 
-<!-- home section ends -->
-
-<!-- about section starts  -->
-
-<section class="about" id="about">
-
-<h1 class="heading"> <span>about</span> me </h1>
-
-<div class="row">
-
-    <div class="info">
-        <h3> <span> name : </span> Renz Oliver Maturino </h3>
-        <h3> <span> age : </span> 31 </h3>
-        <h3> <span> post : </span> front end developer </h3>
-        <h3> <span> language : </span> tagalog/english </h3>
-        <a href="https://www.dropbox.com/scl/fi/dpyia1kk2qq28e61j5oyr/RenzMaturino2026.pdf?rlkey=va1l2y4t62bk1n2jg02ehoi3l&st=dspj9x79&e=1&dl=0"><button class="btn">download CV <i class="fas fa-download"></i> </button></a>
+<section id="about">
+  <div class="wrap">
+    <span class="eyebrow">About</span>
+    <h2 class="section-title">Get to know <span>me</span></h2>
+    <div class="about__grid">
+      <div class="reveal">
+        <div class="info-list">
+          <h4>Personal Info</h4>
+          <div class="row"><span>Name</span><span>Renz Oliver Maturino</span></div>
+          <div class="row"><span>Age</span><span>31</span></div>
+          <div class="row"><span>Role</span><span>Full Stack Developer / Virtual Assistant</span></div>
+          <div class="row"><span>Languages</span><span>Tagalog, English</span></div>
+          <div class="row"><span>Location</span><span>Manila, Philippines</span></div>
+        </div>
+        <a href="https://www.dropbox.com/scl/fi/dpyia1kk2qq28e61j5oyr/RenzMaturino2026.pdf?rlkey=va1l2y4t62bk1n2jg02ehoi3l&st=dspj9x79&e=1&dl=0" class="btn" target="_blank" rel="noopener">Download CV <i class="fas fa-download"></i></a>
+      </div>
+      <div class="stat-grid reveal">
+        <div class="stat-card"><b>6</b><span>Years in E-Commerce Industry</span></div>
+        <div class="stat-card"><b>5+</b><span>Years as Virtual Assistant</span></div>
+        <div class="stat-card"><b>2+</b><span>Years as Web Developer</span></div>
+        <div class="stat-card"><b>70+</b><span>Certificates Earned</span></div>
+        <div class="stat-card" style="grid-column: span 2;"><b>300+</b><span>Projects Completed</span></div>
+      </div>
     </div>
-
-    <div class="counter">
-
-        <div class="box">
-            <span>6</span>
-            <h3>Years in Ecommerce field</h3>
-        </div>
-
-        <div class="box">
-            <span>3</span>
-            <h3>Years of experience as Virtual Assistant</h3>
-        </div>
-
-        <div class="box">
-            <span>2</span>
-            <h3>Years of experience as Web Developer</h3>
-        </div>
-
-
-        <div class="box">
-            <span>70+</span>
-            <h3>Certificates Earned</h3>
-        </div>
-
-        <div class="box">
-            <span>300+</span>
-            <h3>Projects Completed</h3>
-        </div>
-
-    </div>
-
-</div>
-
+  </div>
 </section>
 
-<!-- about section ends -->
-
-<!-- education section starts  -->
-
-<section class="education" id="education">
-
-<h1 class="heading"> my <span>education</span> </h1>
-
-<div class="box-container">
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2012</span>
-        <h3>Information & Communications Technology (ICT)</h3>
-        <p>1 Year ICT at Multi Competencies International Training Center</p>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2016</span>
+<section id="education">
+  <div class="wrap">
+    <span class="eyebrow">Education</span>
+    <h2 class="section-title">My <span>education</span></h2>
+    <p class="section-sub">Formal education plus continuous, self-driven upskilling in modern web development.</p>
+    <div class="timeline">
+      <div class="tl-item reveal">
+        <span class="tl-year">2012</span>
+        <h3>Information &amp; Communications Technology (ICT)</h3>
+        <p>1-year ICT program at Multi Competencies International Training Center.</p>
+      </div>
+      <div class="tl-item reveal">
+        <span class="tl-year">2016</span>
         <h3>Bachelor of Science in Information Technology (BSIT)</h3>
-        <p>Graduated 4-Year Course BSIT at ABE International Business College</p>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2022</span>
-        <h3>Front End Development Course</h3>
-        <p>Finished Some Front End Development Course at Udemy</p>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2023</span>
+        <p>Graduated 4-year BSIT course at ABE International Business College.</p>
+      </div>
+      <div class="tl-item reveal">
+        <span class="tl-year">2022</span>
+        <h3>Front-End Development Course</h3>
+        <p>Completed a Front-End Development course at Udemy.</p>
+      </div>
+      <div class="tl-item reveal">
+        <span class="tl-year">2023</span>
         <h3>Full-Stack Development Course</h3>
-        <p>Completed Full-Stack Development Course at Codecademy</p>
+        <p>Completed a Full-Stack Development course at Codecademy.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="recent">
+  <div class="wrap">
+    <span class="eyebrow">Latest Work</span>
+    <h2 class="section-title">Recent <span>projects</span></h2>
+    <p class="section-sub">A couple of things I shipped most recently — see the full portfolio for everything else.</p>
+
+    <div class="recent-card reveal" data-lightbox-group>
+      <div class="recent-card__head">
+        <h3>Mystique Spa — SPA Website <span style="color:var(--text-faint); font-weight:400; font-size:.85rem;">— June 2026</span></h3>
+        <a href="https://xxdarbxx.github.io/mystique-spa/" target="_blank" rel="noopener">visit site <i class="fas fa-arrow-up-right-from-square"></i></a>
+      </div>
+      <div class="thumb-grid">
+        <div class="thumb" data-lightbox data-full="images/mystique1.PNG" data-caption="Mystique Spa"><img src="images/mystique1.PNG" alt="Mystique Spa" loading="lazy"></div>
+        <div class="thumb" data-lightbox data-full="images/mystique2.PNG" data-caption="Mystique Spa"><img src="images/mystique2.PNG" alt="Mystique Spa" loading="lazy"></div>
+        <div class="thumb" data-lightbox data-full="images/mystique3.PNG" data-caption="Mystique Spa"><img src="images/mystique3.PNG" alt="Mystique Spa" loading="lazy"></div>
+      </div>
     </div>
 
-
-
-
-</div>
-
-</section>
-
-<!-- education section ends -->
-
-<!-- portfolio section starts  -->
-
-<section class="recent" id="recent">
-
-    
-
-    <h1 class="heading"> my <span>recent projects</span> </h1>
-
-    <div class="box-container">
-         <br>
-        <h2 class="pro">SPA Website - June 28, 2026</h2>
-         <h3 class="pro"><a href="https://xxdarbxx.github.io/mystique-spa/">https://xxdarbxx.github.io/mystique-spa/</a></h3>
-        <br>
-        <div class="gallery3">
-        <img src="images/mystique1.PNG" alt="">
-      <img src="images/mystique2.PNG" alt="">
-       <img src="images/mystique3.PNG" alt="">
-       </div>
-          <br><br>
-          <div class="box-container">
-                  <h2 class="pro">Floppy Yumi Game - June 14, 2026</h2>
-         <h3 class="pro"><a href="https://xxdarbxx.github.io/floppy-yumi/">https://xxdarbxx.github.io/floppy-yumi/</a></h3>
-        <br>
-        <div class="gallery3">
-        <img src="images/floppy-yumi1.PNG" alt="">
-      <img src="images/floppy-yumi2.PNG" alt="">
-       <img src="images/floppy-yumi3.PNG" alt="">
-
-            </div></div>section>
-
-<section class="certificates" id="certificates">
-
-    
-
-    <h1 class="heading"> my <span>certificates</span> </h1>
-
-    <div class="box-container">
-         <br>
-        <h2 class="pro">MOST RECENT CERTIFICATES</h2>
-        <br>
-        <div class="gallery3">
-            <img src="certificates/ecom.png" alt="">
-            <img src="certificates/Udemy/udemy-AI.jpg" alt="">
-  
-        </div>
-        <br>
-        <h2 class="pro">PROFESSIONAL CERIFICATES</h2>
-        <br>
-        <div class="gallery3">
-            <img src="certificates/full-stack.png" alt="">
-            <img src="certificates/ibm-front-end.JPG" alt="">
-            <img src="certificates/professional-meta.jpeg" alt="">
-            <img src="certificates/Coursera/back-end-professional.jpg" alt="">
-            <img src="certificates/Coursera/social-pro.jpg" alt="">
-            <img src="certificates/google-pro.jpg" alt="">
-        </div>
-        <br>
-        <br>
-        <br>
-        <h2 class="pro">CYBERSECURITY CERTIFICATES</h2>
-        <div class="gallery3">
-            <img src="certificates/Coursera/cyber1.jpg" alt="">
-            <img src="certificates/ethical-hacking.png" alt="">
-            <img src="certificates/Coursera/cyber-2.jpg" alt="">
-            <img src="certificates/Coursera/ibm-cyber1.jpg" alt="">
-            <img src="certificates/Coursera/cyber3.jpg" alt="">
-            <img src="certificates/Coursera/cyber5.jpg" alt="">
-            <img src="certificates/Coursera/cyber4.jpg" alt="">
-        </div>
-
-        <br>
-        <br>
-        <br>
-        <h2 class="pro">E-COMMERCE CERTIFICATES</h2>
-        <div class="gallery3">
-            <img src="certificates/google-1.jpg" alt="">
-            <img src="certificates/google-2.jpg" alt="">
-            <img src="certificates/google-3.jpg" alt="">
-            <img src="certificates/google-4.jpg" alt="">
-            <img src="certificates/google-5.jpg" alt="">
-            <img src="certificates/google-6.jpg" alt="">
-            <img src="certificates/google-7.jpg" alt="">
-            <img src="certificates/kurso/coffee.png" alt="">
-            <img src="certificates/kurso/fbads.jpg" alt="">
-            <img src="certificates/kurso/graphic.png" alt="">
-            <img src="certificates/kurso/socialmedia.jpg" alt="">
-            <img src="certificates/kurso/wordpress.png" alt="">
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <h2 class="pro">SOCIAL MEDIA MARKETING</h2>
-        <div class="gallery3">
-            <img src="certificates/Social-Media/1.jpg" alt="">
-            <img src="certificates/Coursera/social2.jpg" alt="">
-            <img src="certificates/Coursera/social3.jpg" alt="">
-            <img src="certificates/Coursera/social4.jpg" alt="">
-            <img src="certificates/Coursera/social5.jpg" alt="">
-            <img src="certificates/Coursera/social6.jpg" alt="">
-        </div>
-
-        <br>
-        <br>
-        <br>
-        <br>
-        <h2 class="pro">WEB DEVELOPMENT CERTIFICATES</h2>
-        <br>
-        <div class="gallery3">
-            <img src="certificates/Udemy/udemy1.jpg" alt="">
-            <img src="certificates/Udemy/udemy2.jpg" alt="">
-            <img src="certificates/Coursera/IBM/intro-to-se.jpg" alt="">
-            <img src="certificates/ibm-capstone.JPG" alt="">
-            <img src="certificates/ibm-uiux.JPG" alt="">
-            <img src="certificates/IBM-introduction.jpg" alt="">
-            <img src="certificates/IBM-react1.jpg" alt="">
-            <img src="certificates/Coursera/IBM/IBM-cloud.png" alt="">
-            <img src="certificates/Coursera/IBM/git-github.jpg" alt="">
-            <img src="certificates/meta-front-end.jpeg" alt="">
-            <img src="certificates/meta-advanced-react.jpeg" alt="">
-            <img src="certificates/meta-react-basics.jpg" alt="">
-            <img src="certificates/meta-programming-with-javascript.jpg" alt="">
-            <img src="certificates/meta-html-in-depth.jpg" alt="">
-            <img src="certificates/meta-ui-ux.jpg" alt="">
-            <img src="certificates/meta-version-control.jpg" alt="">
-            <img src="certificates/meta-intro-to-frontend.jpg" alt="">
-            <img src="certificates/backend222.jpeg" />
-            <img src="certificates/Coursera/python.jpg" />
-            <img src="certificates/database.jpg" />
-            <img src="certificates/Coursera/back-end-capstone.jpg" />
-            <img src="certificates/Coursera/API.jpg" />
-            <img src="certificates/Coursera/django.jpg" />
-            <img src="certificates/Coursera/thefullstack.jpg" alt="">
-            <img src="certificates/Codecademy/front-end-engineer.png" alt="">
-            <img src="certificates/Codecademy/back-end.png" alt="">
-            <img src="certificates/Codecademy/build-a-website.png" alt="">
-            <img src="certificates/Codecademy/css-intermediate.png" alt="">
-            <img src="certificates/Codecademy/learn-css.png" alt="">
-            <img src="certificates/Codecademy/learn-css2.png" alt="">
-            <img src="certificates/Codecademy/learn-html.png" alt="">
-            <img src="certificates/Codecademy/learn-javascript.png" alt="">
-            <img src="certificates/Codecademy/learn-jquery.png" alt="">
-            <img src="certificates/Codecademy/learn-testing.png" alt="">
-            <img src="certificates/Codecademy/php-introduction.png" alt="">
-            <img src="certificates/front-end-app.png" alt="">
-            <img src="certificates/building-interactive-website.png" alt="">
-            <img src="certificates/Codecademy/ui-ux.png" alt="">
-            <img src="certificates/codeliber1.png" alt="">
-          
-           
-        </div>
-        <br>
-        <br>
-        <br>
-        <h2 class="pro">OTHER CERTIFICATES</h2>
-        <br>
-        <div class="gallery3">
-            <img src="certificates/Coursera/AI.jpg" alt="">
-            <img src="certificates/others1.jpg" alt="">
-            <img src="certificates/Coursera/mobile1.jpg" alt="">
-            <img src="certificates/kurso/tesda-cert.png" alt="">
-            <img src="certificates/mci.jpg" alt="">
-            <img src="certificates/SEO.PNG" alt="">
-            <img src="certificates/goit.png" alt="">
-            
-        </div>
-
-        
-    
-        <div class="box">
-            <img src="images/img2.png" alt="">
-        </div>
-
-        <div class="box">
-            <img src="images/cert.png" alt="">
-        </div>
-
-</section>
-
-
-
-<section class="skills" id="skills">
-    <h1 class="heading"> <span>my</span> skills </h1>
-    <p>
-    <i class="fa fa-star fa-2x"></i>
-    <i class="fa fa-star fa-2x"></i>
-    <i class="fa fa-star fa-2x"></i>
-    <i class="fa fa-star fa-2x"></i>
-    <i class="fa fa-star fa-2x"></i>
-    <span>HTML</span></p>
-
-    <p>
-        <i class="fa fa-star fa-2x"></i>
-        <i class="fa fa-star fa-2x"></i>
-        <i class="fa fa-star fa-2x"></i>
-        <i class="fa fa-star fa-2x"></i>
-        <i class="fa fa-star fa-2x"></i>
-        <span>CSS</span></p>
-
-        <p>
-            <i class="fa fa-star fa-2x"></i>
-            <i class="fa fa-star fa-2x"></i>
-            <i class="fa fa-star fa-2x"></i>
-            <i class="fa fa-star fa-2x"></i>
-            <i class="fa fa-star fa-2x"></i>
-            <span>Shopify Development</span></p>
-
-                <p>
-        <i class="fa fa-star fa-2x"></i>
-        <i class="fa fa-star fa-2x"></i>
-        <i class="fa fa-star fa-2x"></i>
-        <i class="fa fa-star fa-2x"></i>
-        <i class="fa fa-star fa-2x"></i>
-        <span>Go High Level</span></p>
-
-            <p>
-                <i class="fa fa-star fa-2x"></i>
-                <i class="fa fa-star fa-2x"></i>
-                <i class="fa fa-star fa-2x"></i>
-                <i class="fa fa-star fa-2x"></i>
-                <i class="fa fa-star fa-2x"></i>
-                <span>Ecommerce (Amazon & Alibaba)</span></p> 
-                
-                <p>
-                    <i class="fa fa-star fa-2x"></i>
-                    <i class="fa fa-star fa-2x"></i>
-                    <i class="fa fa-star fa-2x"></i>
-                    <i class="fa fa-star fa-2x"></i>
-                    <i class="fa fa-star fa-2x"></i>
-                    <span>Ecommerce PH (Lazada, Shopee & Tiktok)</span></p>  
-
-        <p>
-            <i class="fa fa-star fa-2x"></i>
-            <i class="fa fa-star fa-2x"></i>
-            <i class="fa fa-star fa-2x"></i>
-            <i class="fa fa-star fa-2x"></i>
-            <i class="fa fa-star fa-2x"></i>
-            <span>Computer Hardware</span></p>    
-
-   
-
-            <p>
-                <i class="fa fa-star fa-2x"></i>
-                <i class="fa fa-star fa-2x"></i>
-                <i class="fa fa-star fa-2x"></i>
-                <i class="fa fa-star fa-2x"></i>
-                <i class="fa fa-star fa-2x"></i>
-                <span>Facebook Ads</span></p>
-
-            
-
-            <p>
-                <i class="fa fa-star fa-2x"></i>
-                <i class="fa fa-star fa-2x"></i>
-                <i class="fa fa-star fa-2x"></i>
-                <i class="fa fa-star fa-2x"></i>
-                <i class="fa fa-star fa-2x"></i>
-                <span>Etsy & Etsy Ads</span></p>
-
-                <p>
-                    <i class="fa fa-star fa-2x"></i>
-                    <i class="fa fa-star fa-2x"></i>
-                    <i class="fa fa-star fa-2x"></i>
-                    <i class="fa fa-star fa-2x"></i>
-                    <i class="fa fa-star fa-2x black"></i>
-                    <span>React.js</span></p>
-
-        
-
-                <p>
-                    <i class="fa fa-star fa-2x"></i>
-                    <i class="fa fa-star fa-2x"></i>
-                    <i class="fa fa-star fa-2x"></i>
-                    <i class="fa fa-star fa-2x"></i>
-                    <i class="fa fa-star fa-2x black"></i>
-                    <span>Adobe XD</span></p>
-
-                        
-                    <p>
-                        <i class="fa fa-star fa-2x"></i>
-                        <i class="fa fa-star fa-2x"></i>
-                        <i class="fa fa-star fa-2x"></i>
-                        <i class="fa fa-star fa-2x"></i>
-                        <i class="fa fa-star fa-2x black"></i>
-                        <span>Microsoft Office</span></p>
-
-
-                    <p>
-                        <i class="fa fa-star fa-2x"></i>
-                        <i class="fa fa-star fa-2x"></i>
-                        <i class="fa fa-star fa-2x"></i>
-                        <i class="fa fa-star fa-2x"></i>
-                        <i class="fa fa-star fa-2x black"></i>
-                        <span>Figma</span></p>
-
-                        <p>
-                            <i class="fa fa-star fa-2x"></i>
-                            <i class="fa fa-star fa-2x"></i>
-                            <i class="fa fa-star fa-2x"></i>
-                            <i class="fa fa-star fa-2x"></i>
-                            <i class="fa fa-star fa-2x black"></i>
-                            <span>Git | Github</span></p>
-
-                    
-                
-                                
-
-                                <p>
-                                    <i class="fa fa-star fa-2x"></i>
-                                    <i class="fa fa-star fa-2x"></i>
-                                    <i class="fa fa-star fa-2x"></i>
-                                    <i class="fa fa-star fa-2x"></i>
-                                    <i class="fa fa-star fa-2x black"></i>
-                                    <span>Twitter Ads & Instagram Ads</span></p>
-
-                                    <p>
-                                        <i class="fa fa-star fa-2x"></i>
-                                        <i class="fa fa-star fa-2x"></i>
-                                        <i class="fa fa-star fa-2x"></i>
-                                        <i class="fa fa-star fa-2x"></i>
-                                        <i class="fa fa-star fa-2x black"></i>
-                                        <span>Google Ads</span></p>
-
-                                        <p>
-                                            <i class="fa fa-star fa-2x"></i>
-                                            <i class="fa fa-star fa-2x"></i>
-                                            <i class="fa fa-star fa-2x"></i>
-                                            <i class="fa fa-star fa-2x black"></i>
-                                            <i class="fa fa-star fa-2x black"></i>
-                                            <span>Cybersecurity</span></p>
-                                        
-                                        <p>
-                                            <i class="fa fa-star fa-2x"></i>
-                                            <i class="fa fa-star fa-2x"></i>
-                                            <i class="fa fa-star fa-2x"></i>
-                                            <i class="fa fa-star fa-2x black"></i>
-                                            <i class="fa fa-star fa-2x black"></i>
-                                            <span>Wordpress</span></p>
-                                        
-                    <p>
-                        <i class="fa fa-star fa-2x"></i>
-                        <i class="fa fa-star fa-2x"></i>
-                        <i class="fa fa-star fa-2x"></i>
-                        <i class="fa fa-star fa-2x black"></i>
-                        <i class="fa fa-star fa-2x black"></i>
-                        <span>Adobe Photoshop</span></p>
-
-                        
-
-                                        <p>
-                                            <i class="fa fa-star fa-2x"></i>
-                                            <i class="fa fa-star fa-2x"></i>
-                                            <i class="fa fa-star fa-2x"></i>
-                                            <i class="fa fa-star fa-2x black"></i>
-                                            <i class="fa fa-star fa-2x black"></i>
-                                            <span>Pinterest</span></p>
-
-
-
-            <p>
-                <i class="fa fa-star fa-2x"></i>
-                <i class="fa fa-star fa-2x"></i>
-                <i class="fa fa-star fa-2x"></i>
-                <i class="fa fa-star fa-2x black"></i>
-                <i class="fa fa-star fa-2x black"></i>
-                <span>Search Engine Optimization (SEO)</span></p>
-
-                <p>
-                    <i class="fa fa-star fa-2x"></i>
-                    <i class="fa fa-star fa-2x"></i>
-                    <i class="fa fa-star fa-2x"></i>
-                    <i class="fa fa-star fa-2x black"></i>
-                    <i class="fa fa-star fa-2x black"></i>
-                    <span>Filmora (Video Editing)</span></p>
-
-                <p>
-                    <i class="fa fa-star fa-2x"></i>
-                    <i class="fa fa-star fa-2x"></i>
-                    <i class="fa fa-star fa-2x"></i>
-                    <i class="fa fa-star fa-2x black"></i>
-                    <i class="fa fa-star fa-2x black"></i>
-                    <span>PHP</span></p>
-
-        
-
-                        <p>
-                            <i class="fa fa-star fa-2x"></i>
-                            <i class="fa fa-star fa-2x"></i>
-                            <i class="fa fa-star fa-2x"></i>
-                            <i class="fa fa-star fa-2x black"></i>
-                            <i class="fa fa-star fa-2x black"></i>
-                            <span>Bootstrap</span></p>
-
-                            <p>
-                                <i class="fa fa-star fa-2x"></i>
-                                <i class="fa fa-star fa-2x"></i>
-                                <i class="fa fa-star fa-2x"></i>
-                                <i class="fa fa-star fa-2x black"></i>
-                                <i class="fa fa-star fa-2x black"></i>
-                                <span>JQuery</span></p>
-
-                                
-
-                                <p>
-                                    <i class="fa fa-star fa-2x"></i>
-                                    <i class="fa fa-star fa-2x"></i>
-                                    <i class="fa fa-star fa-2x"></i>
-                                    <i class="fa fa-star fa-2x black"></i>
-                                    <i class="fa fa-star fa-2x black"></i>
-                                    <span>MySQL Database</span></p>
-
-
-                                <p>
-                                    <i class="fa fa-star fa-2x"></i>
-                                    <i class="fa fa-star fa-2x"></i>
-                                    <i class="fa fa-star fa-2x black"></i>
-                                    <i class="fa fa-star fa-2x black"></i>
-                                    <i class="fa fa-star fa-2x black"></i>
-                                    <span>Node.js / Express</span></p>
-
-                                        <p>
-                                            <i class="fa fa-star fa-2x"></i>
-                                            <i class="fa fa-star fa-2x"></i>
-                                            <i class="fa fa-star fa-2x black"></i>
-                                            <i class="fa fa-star fa-2x black"></i>
-                                            <i class="fa fa-star fa-2x black"></i>
-                                            <span>Angular.js & Vue.js</span></p>
-
-                                          
-
-                                         
-
-                                                    <p>
-                                                        <i class="fa fa-star fa-2x"></i>
-                                                        <i class="fa fa-star fa-2x"></i>
-                                                        <i class="fa fa-star fa-2x black"></i>
-                                                        <i class="fa fa-star fa-2x black"></i>
-                                                        <i class="fa fa-star fa-2x black"></i>
-                                                        <span>MongoDB</span></p>
-
-                                                        <p>
-                                                            <i class="fa fa-star fa-2x"></i>
-                                                            <i class="fa fa-star fa-2x"></i>
-                                                            <i class="fa fa-star fa-2x black"></i>
-                                                            <i class="fa fa-star fa-2x black"></i>
-                                                            <i class="fa fa-star fa-2x black"></i>
-                                                            <span>Python</span></p>
-
-</section>
-
-
-<!-- portfolio section ends -->
-
-<!-- contact section starts  -->
-
-<section class="contact" id="contact">
-
-<h1 class="heading"> <span>contact</span> me </h1>
-
-<div class="row">
-
-    <div class="content">
-
-        <h3 class="title">contact info</h3>
-
-        <div class="info">
-            <h3> <i class="fas fa-envelope"></i> renzmaturino28@gmail.com </h3>
-            <h3> <i class="fas fa-phone"></i> (+63)998-298-6745 </h3>
-            <h3> <i class="fas fa-map-marker-alt"></i> Manila, Philippines</h3>
-        </div>
-
+    <div class="recent-card reveal" data-lightbox-group>
+      <div class="recent-card__head">
+        <h3>Floppy Yumi — Browser Game <span style="color:var(--text-faint); font-weight:400; font-size:.85rem;">— June 2026</span></h3>
+        <a href="https://xxdarbxx.github.io/floppy-yumi/" target="_blank" rel="noopener">visit site <i class="fas fa-arrow-up-right-from-square"></i></a>
+      </div>
+      <div class="thumb-grid">
+        <div class="thumb" data-lightbox data-full="images/floppy-yumi1.PNG" data-caption="Floppy Yumi"><img src="images/floppy-yumi1.PNG" alt="Floppy Yumi" loading="lazy"></div>
+        <div class="thumb" data-lightbox data-full="images/floppy-yumi2.PNG" data-caption="Floppy Yumi"><img src="images/floppy-yumi2.PNG" alt="Floppy Yumi" loading="lazy"></div>
+        <div class="thumb" data-lightbox data-full="images/floppy-yumi3.PNG" data-caption="Floppy Yumi"><img src="images/floppy-yumi3.PNG" alt="Floppy Yumi" loading="lazy"></div>
+      </div>
     </div>
-
-    <form action="">
-
-        <input type="text" placeholder="name" class="box">
-        <input type="email" placeholder="email" class="box">
-        <input type="text" placeholder="project" class="box">
-        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
-        <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
-
-    </form>
-
-</div>
-
+  </div>
 </section>
 
-<!-- contact section ends -->
+<section id="certificates">
+  <div class="wrap">
+    <span class="eyebrow">Credentials</span>
+    <h2 class="section-title">My <span>certificates</span></h2>
+    <p class="section-sub"><span data-cert-total>0</span> certificates and digital badges earned across web development, e-commerce, cybersecurity, and marketing.</p>
+    <div class="cert-tabs">
+      <button class="cert-tab active" data-slug="all">All</button>
+      <button class="cert-tab" data-slug="recent">Most Recent</button>
+      <button class="cert-tab" data-slug="professional">Professional</button>
+      <button class="cert-tab" data-slug="webdev">Web Development</button>
+      <button class="cert-tab" data-slug="cyber">Cybersecurity</button>
+      <button class="cert-tab" data-slug="ecommerce">E-Commerce</button>
+      <button class="cert-tab" data-slug="social">Social Media</button>
+      <button class="cert-tab" data-slug="other">Other</button>
+    </div>
+    <div id="cert-container"></div>
+  </div>
+</section>
 
+<section id="skills">
+  <div class="wrap">
+    <span class="eyebrow">Toolbox</span>
+    <h2 class="section-title">My <span>skills</span></h2>
+    <p class="section-sub">Proficiency across front-end development, e-commerce platforms, marketing tools, and back-end technologies.</p>
+    <div class="skills-grid">
+      <div class="skill reveal"><div class="skill__top"><b>HTML</b></div><div class="skill__bar"><i data-pct="100"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>CSS</b></div><div class="skill__bar"><i data-pct="100"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>Shopify Development</b></div><div class="skill__bar"><i data-pct="100"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>Go High Level</b></div><div class="skill__bar"><i data-pct="100"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>Ecommerce (Amazon &amp; Alibaba)</b></div><div class="skill__bar"><i data-pct="100"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>Ecommerce PH (Lazada, Shopee, TikTok)</b></div><div class="skill__bar"><i data-pct="100"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>Computer Hardware</b></div><div class="skill__bar"><i data-pct="100"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>Facebook Ads</b></div><div class="skill__bar"><i data-pct="100"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>Etsy &amp; Etsy Ads</b></div><div class="skill__bar"><i data-pct="100"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>React.js</b></div><div class="skill__bar"><i data-pct="80"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>Adobe XD</b></div><div class="skill__bar"><i data-pct="80"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>Microsoft Office</b></div><div class="skill__bar"><i data-pct="80"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>Figma</b></div><div class="skill__bar"><i data-pct="80"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>Git | GitHub</b></div><div class="skill__bar"><i data-pct="80"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>Twitter &amp; Instagram Ads</b></div><div class="skill__bar"><i data-pct="80"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>Google Ads</b></div><div class="skill__bar"><i data-pct="80"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>Klaviyo</b></div><div class="skill__bar"><i data-pct="80"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>Shopify Flow</b></div><div class="skill__bar"><i data-pct="80"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>Cybersecurity</b></div><div class="skill__bar"><i data-pct="60"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>WordPress</b></div><div class="skill__bar"><i data-pct="60"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>Adobe Photoshop</b></div><div class="skill__bar"><i data-pct="60"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>Pinterest</b></div><div class="skill__bar"><i data-pct="60"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>SEO</b></div><div class="skill__bar"><i data-pct="60"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>Filmora (Video Editing)</b></div><div class="skill__bar"><i data-pct="60"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>PHP</b></div><div class="skill__bar"><i data-pct="60"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>Bootstrap</b></div><div class="skill__bar"><i data-pct="60"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>jQuery</b></div><div class="skill__bar"><i data-pct="60"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>MySQL Database</b></div><div class="skill__bar"><i data-pct="60"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>Node.js / Express</b></div><div class="skill__bar"><i data-pct="40"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>Angular.js &amp; Vue.js</b></div><div class="skill__bar"><i data-pct="40"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>MongoDB</b></div><div class="skill__bar"><i data-pct="40"></i></div></div>
+      <div class="skill reveal"><div class="skill__top"><b>Python</b></div><div class="skill__bar"><i data-pct="40"></i></div></div>
+    </div>
+  </div>
+</section>
 
-<!-- scroll top button  -->
+<section id="contact">
+  <div class="wrap">
+    <span class="eyebrow">Get In Touch</span>
+    <h2 class="section-title">Contact <span>me</span></h2>
+    <p class="section-sub">Have a project in mind or need a hand with e-commerce, VA work, or front-end development? Let's talk.</p>
+    <div class="contact__grid">
+      <div class="contact-card reveal">
+        <div class="row"><i class="fas fa-envelope"></i><div><b>renzmaturino28@gmail.com</b><span>Email</span></div></div>
+        <div class="row"><i class="fas fa-phone"></i><div><b>(+63) 976-446-1147</b><span>Phone</span></div></div>
+        <div class="row"><i class="fas fa-map-marker-alt"></i><div><b>Manila, Philippines</b><span>Location</span></div></div>
+      </div>
+      <form class="form-grid reveal" id="contact-form">
+        <div class="two">
+          <input type="text" name="name" placeholder="Name" class="field" required>
+          <input type="email" name="email" placeholder="Email" class="field" required>
+        </div>
+        <input type="text" name="project" placeholder="Project" class="field">
+        <textarea class="field" name="message" placeholder="Message" required></textarea>
+        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+        <button type="submit" class="btn" id="contact-submit" style="justify-self:start;">Send Message <i class="fas fa-paper-plane"></i></button>
+        <p id="contact-status" style="font-size:.85rem;"></p>
+      </form>
+    </div>
+  </div>
+</section>
 
-<a href="#home" class="top">
-    <img src="images/scroll-top-img.png" alt="">
-</a>
+</main>
 
+<footer>
+  <div class="wrap footer__row">
+    <p>&copy; 2026 Renz Oliver Maturino. All rights reserved.</p>
+    <div class="social">
+      <a href="mailto:renzmaturino28@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      <a href="portfolio.html" aria-label="Portfolio"><i class="fas fa-briefcase"></i></a>
+    </div>
+  </div>
+</footer>
 
+<a href="#home" class="scrolltop" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></a>
 
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- jquery cdn link  -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-<!-- custom js file link  -->
-<script src="script.js"></script>
-
-
+<script src="js/cert-data.js"></script>
+<script src="js/gallery.js"></script>
+<script>renderCertCategories('#cert-container', CERT_CATEGORIES);</script>
+<script src="js/main.js"></script>
+<script src="js/contact-form.js"></script>
 </body>
 </html>

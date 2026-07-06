@@ -1,91 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio - Renz Maturino</title>
-
-    <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="gallery.css">
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — Renz Oliver Maturino</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
-<!-- header section starts  -->
 
 <header>
-
-    <div class="user">
-        <img src="images/pic.jpg" alt="">
-        <h3 class="name">Renz Oliver Maturino</h3>
-        <p class="post">Front-End Developer</p>
-        <p class="post">Virtual Assistant</p>
-    </div>
-
-    <nav class="navbar">
-        <ul>
-            <li><a href="index.html">home</a></li>
-            <li><a href="index.html">about</a></li>
-            <li><a href="index.html">education</a></li>
-            <li><a href="index.html">certificates</a></li>
-            <li><a href="index.html">skills</a></li>
-            <li><a href="index.html">portfolio</a></li>
-            <li><a href="index.html">contact</a></li>
-        </ul>
+  <div class="nav">
+    <a class="brand" href="index.html">
+      <span class="brand__mark">RM</span>
+      <span>Renz Oliver Maturino<small>Full Stack Developer and Virtual Assistant</small></span>
+    </a>
+    <nav class="navlinks">
+      <a href="index.html#home">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#education">Education</a>
+      <a href="index.html#certificates">Certificates</a>
+      <a href="index.html#skills">Skills</a>
+      <a href="portfolio.html" class="active">Portfolio</a>
+      <a href="index.html#contact">Contact</a>
     </nav>
-
+    <div class="navcta">
+      <a href="index.html#contact" class="btn sm ghost">Contact Me</a>
+      <button class="menu-btn" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
+    </div>
+  </div>
 </header>
 
-<!-- header section ends -->
-
-<div id="menu" class="fas fa-bars"></div>
-
-<section class="home" id="home">
-
-    <div class="portfolio">
-  
-<h3>E-COMMERCE</h3>
-<h1><i class="fa-solid fa-cart-shopping fa-2xs"></i><a href="etsy.html"> ETSY</h1> <br /></a>
-<h1><i class="fa-solid fa-cart-shopping fa-2xs"></i><a href="shopify.html"> SHOPIFY</h1></a>
-<h1><i class="fa-solid fa-cart-shopping fa-2xs"></i><a href="otherecommerce.html"> OTHER E-COMMERCE </h1></a>
-
-<br /><br /><br /><br />
-<h3>FUNNELS</h3>
-<h1><i class="fa-solid fa-cart-shopping fa-2xs"></i><a href="clickfunnels.html"> CLICK FUNNELS</h1></a>
-<br />
-<h1><i class="fa-solid fa-cart-shopping fa-2xs"></i><a href="ghl.html"> GO HIGH LEVEL</h1></a>
-<br /><br /><br /><br />
-<h3>SOFTWARE & WEB DEVELOPMENT</h3>
-<h1><i class="fa-solid fa-code fa-2xs"></i><a href="backend.html"> BACK-END DEVELOPMENT </h1> <br /></a>
-<h1><i class="fa-solid fa-code fa-2xs"></i><a href="frontend.html"> FRONT-END DEVELOPMENT</h1> <br /></a>
-<h1><i class="fa-solid fa-code fa-2xs"></i><a href="game.html"> GAME DEVELOPMENT</h1> <br /></a>
-<h1><i class="fa-solid fa-code fa-2xs"></i><a href="python.html"> PYTHON</h1></a>
-<h1><i class="fa-solid fa-code fa-2xs"></i><a href="uiux.html"> UI/UX </h1></a>
-
-<br /><br /><br /><br />
-</div>
+<main>
+<section class="page-hero">
+  <div class="wrap">
+    <span class="eyebrow">Portfolio</span>
+    <h1 class="section-title">300+ projects across <span>e-commerce, funnels &amp; web development</span></h1>
+    <p class="section-sub mb-0">Browse by category — each one opens a full gallery of real client and personal work.</p>
+  </div>
 </section>
 
+<section style="padding-top:1rem;">
+  <div class="wrap">
+    <h2 class="section-title" style="font-size:1.3rem;">E-Commerce</h2>
+    <div class="cat-grid" style="margin-bottom:3rem;">
+      <a class="cat-card" href="etsy.html">
+        <div class="cat-card__img"><img src="images/etsy/pic.jpg" alt="Etsy projects" loading="lazy"></div>
+        <div class="cat-card__body"><span class="tag">E-Commerce</span><h3>Etsy</h3><p>Shop setup, listings and storefront management for Etsy sellers.</p><span class="go">View gallery <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+      <a class="cat-card" href="shopify.html">
+        <div class="cat-card__img"><img src="images/shopify/shopify1.png" alt="Shopify projects" loading="lazy"></div>
+        <div class="cat-card__body"><span class="tag">E-Commerce</span><h3>Shopify</h3><p>12 Shopify storefronts built and customized for clients.</p><span class="go">View gallery <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+      <a class="cat-card" href="other-ecommerce.html">
+        <div class="cat-card__img"><img src="images/omg/tower1.JPG" alt="Other e-commerce projects" loading="lazy"></div>
+        <div class="cat-card__body"><span class="tag">E-Commerce</span><h3>Other E-Commerce</h3><p>Property &amp; community sites — Towerhill, Willow Spring, Burlington and more.</p><span class="go">View gallery <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+    </div>
 
+    <h2 class="section-title" style="font-size:1.3rem;">Funnels</h2>
+    <div class="cat-grid" style="margin-bottom:3rem;">
+      <a class="cat-card" href="clickfunnels.html">
+        <div class="cat-card__img"><img src="images/click-funnels/funnel2.jpg" alt="ClickFunnels projects" loading="lazy"></div>
+        <div class="cat-card__body"><span class="tag">Funnels</span><h3>ClickFunnels</h3><p>Five live funnels — gym, dating, real estate, coffee &amp; bio opt-in pages.</p><span class="go">View gallery <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+      <a class="cat-card" href="gohighlevel.html">
+        <div class="cat-card__img"><img src="images/ghl/ghl1.PNG" alt="Go High Level projects" loading="lazy"></div>
+        <div class="cat-card__body"><span class="tag">Funnels</span><h3>Go High Level</h3><p>Nutritionist, gym and spa funnels built on GoHighLevel.</p><span class="go">View gallery <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+    </div>
 
+    <h2 class="section-title" style="font-size:1.3rem;">Software &amp; Web Development</h2>
+    <div class="cat-grid">
+      <a class="cat-card" href="backend.html">
+        <div class="cat-card__img"><img src="images/back-end/pc.PNG" alt="Back-end projects" loading="lazy"></div>
+        <div class="cat-card__body"><span class="tag">Development</span><h3>Back-End</h3><p>Little Lemon restaurant app — API, database &amp; server-side logic.</p><span class="go">View gallery <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+      <a class="cat-card" href="frontend.html">
+        <div class="cat-card__img"><img src="images/mystique1.PNG" alt="Front-end projects" loading="lazy"></div>
+        <div class="cat-card__body"><span class="tag">Development</span><h3>Front-End</h3><p>72 screenshots across 14 projects — SPAs, hotels, hospitals, real estate &amp; more.</p><span class="go">View gallery <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+      <a class="cat-card" href="game.html">
+        <div class="cat-card__img"><img src="images/floppy-yumi1.PNG" alt="Game dev projects" loading="lazy"></div>
+        <div class="cat-card__body"><span class="tag">Development</span><h3>Game Development</h3><p>Floppy Yumi browser game, a working drum kit, and more.</p><span class="go">View gallery <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+      <a class="cat-card" href="python.html">
+        <div class="cat-card__img"><img src="images/python/python1.jpg" alt="Python projects" loading="lazy"></div>
+        <div class="cat-card__body"><span class="tag">Development</span><h3>Python</h3><p>Currency conversion tool and other Python scripts.</p><span class="go">View gallery <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+      <a class="cat-card" href="uiux.html">
+        <div class="cat-card__img"><img src="images/uiux/ui1.png" alt="UI/UX projects" loading="lazy"></div>
+        <div class="cat-card__body"><span class="tag">Design</span><h3>UI / UX</h3><p>Interface &amp; experience design mockups.</p><span class="go">View gallery <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+    </div>
+  </div>
+</section>
+</main>
 
+<footer>
+  <div class="wrap footer__row">
+    <p>&copy; 2026 Renz Oliver Maturino. All rights reserved.</p>
+    <div class="social">
+      <a href="mailto:renzmaturino28@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      <a href="index.html" aria-label="Home"><i class="fas fa-house"></i></a>
+    </div>
+  </div>
+</footer>
 
+<a href="#home" class="scrolltop" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></a>
 
-
-
-
-<script src="https://kit.fontawesome.com/2f30debc84.js" crossorigin="anonymous"></script>
-
-<!-- jquery cdn link  -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-<!-- custom js file link  -->
-<script src="script.js"></script>
-
-
+<script src="js/main.js"></script>
 </body>
 </html>
