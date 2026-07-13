@@ -12,7 +12,6 @@ const CERT_CATEGORIES = [
     slug: 'professional',
     name: 'Professional Certificates & Digital Badges',
     items: [
-      { src: 'certificates/2026/ghl-training.png', label: 'Go High Level Training Course (VAA Pro, 2026)' },
       { src: 'certificates/full-stack.png', label: 'Full-Stack Development' },
       { src: 'certificates/ibm-front-end.JPG', label: 'IBM Front-End Development' },
       { src: 'certificates/professional-meta.jpeg', label: 'Meta Professional Certificate' },
@@ -42,6 +41,7 @@ const CERT_CATEGORIES = [
     slug: 'ecommerce',
     name: 'E-Commerce & Marketing',
     items: [
+      { src: 'certificates/2026/ghl-training.png', label: 'Go High Level Training Course (VAA Pro, 2026)' },
       { src: 'certificates/google-1.jpg' },
       { src: 'certificates/google-2.jpg' },
       { src: 'certificates/google-3.jpg' },
