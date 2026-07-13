@@ -1,5 +1,11 @@
 const PROJECT_GROUPS = [
   {
+    title: 'Smile Haven Dental Clinic',
+    images: [
+      { src: 'images/front-end/smilehaven1.PNG' }, { src: 'images/front-end/smilehaven2.PNG' }, { src: 'images/front-end/smilehaven3.PNG' },
+    ]
+  },
+  {
     title: 'The Quiet Room — SPA Website',
     link: 'https://xxdarbxx.github.io/mystique-spa/',
     images: [
