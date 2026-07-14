@@ -1,6 +1,7 @@
 const PROJECT_GROUPS = [
   {
     title: "Yuna's Dental Clinic",
+    link: 'https://yuna-s-dental-clinic.vercel.app/',
     images: [
       { src: 'images/front-end/yunadental1.PNG' }, { src: 'images/front-end/yunadental2.PNG' }, { src: 'images/front-end/yunadental3.PNG' },
     ]
