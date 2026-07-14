@@ -1,5 +1,11 @@
 const PROJECT_GROUPS = [
   {
+    title: "Yuna's Dental Clinic",
+    images: [
+      { src: 'images/front-end/yunadental1.PNG' }, { src: 'images/front-end/yunadental2.PNG' }, { src: 'images/front-end/yunadental3.PNG' },
+    ]
+  },
+  {
     title: 'CNM Pharmacy',
     images: [
       { src: 'images/front-end/cnmpharmacy1.PNG' }, { src: 'images/front-end/cnmpharmacy2.PNG' }, { src: 'images/front-end/cnmpharmacy3.PNG' },
