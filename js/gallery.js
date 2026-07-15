@@ -5,8 +5,13 @@ function renderProjectGroups(containerSelector, groups) {
     <div class="project-group reveal" data-lightbox-group>
       <div class="project-group__head">
         <h3>${group.title}</h3>
-        ${group.link ? `<a href="${group.link}" target="_blank" rel="noopener">visit site <i class="fas fa-arrow-up-right-from-square"></i></a>` : `<span class="project-group__count">${group.images.length} screenshot${group.images.length > 1 ? 's' : ''}</span>`}
+        ${group.link ? `<a href="${group.link}" target="_blank" rel="noopener">visit site <i class="fas fa-arrow-up-right-from-square"></i></a>` : (group.video ? `<span class="project-group__count">video walkthrough</span>` : `<span class="project-group__count">${group.images.length} screenshot${group.images.length > 1 ? 's' : ''}</span>`)}
       </div>
+      ${group.video ? `
+      <div class="project-video">
+        <video src="${group.video}" controls preload="metadata"></video>
+      </div>
+      ` : `
       <div class="thumb-grid">
         ${group.images.map((img, i) => `
           <div class="thumb" data-lightbox data-full="${img.src}" data-caption="${(img.caption || group.title).replace(/"/g, '&quot;')}">
@@ -14,6 +19,7 @@ function renderProjectGroups(containerSelector, groups) {
           </div>
         `).join('')}
       </div>
+      `}
     </div>
   `).join('');
 

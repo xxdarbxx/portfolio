@@ -270,6 +270,10 @@ header{
 .project-group__head a{ font-size:.82rem; color: var(--accent-2); font-weight:600; display:inline-flex; align-items:center; gap:.4rem; }
 .project-group__count{ color: var(--text-faint); font-size:.78rem; }
 
+.project-video{ border-radius: var(--radius-sm); overflow:hidden; border:1px solid var(--border); background:#000; }
+.project-video video{ display:block; width:100%; max-height:70vh; }
+.recent-card .project-video{ margin: 1.4rem 1.6rem 1.6rem; }
+
 .thumb-grid{ display:grid; grid-template-columns: repeat(auto-fill, minmax(220px,1fr)); gap:1rem; }
 .thumb{
   border-radius: var(--radius-sm); overflow:hidden; border:1px solid var(--border); background: var(--surface);

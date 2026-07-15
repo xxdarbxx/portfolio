@@ -1,5 +1,9 @@
 const PROJECT_GROUPS = [
   {
+    title: 'Mystique Spa with Admin Dashboard',
+    video: 'videos/mystique-admin-demo.mp4',
+  },
+  {
     title: "Yuna's Dental Clinic",
     link: 'https://yuna-s-dental-clinic.vercel.app/',
     images: [
