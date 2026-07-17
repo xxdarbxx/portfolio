@@ -1,5 +1,12 @@
 const PROJECT_GROUPS = [
   {
+    title: 'Rhena Speech AI',
+    link: 'https://rhena-ai.vercel.app/',
+    images: [
+      { src: 'images/front-end/rhenaai1.PNG' },
+    ]
+  },
+  {
     title: 'Mystique Spa with Admin Dashboard',
     video: 'videos/mystique-admin-demo.mp4',
   },
