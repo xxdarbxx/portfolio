@@ -1,5 +1,10 @@
 const PROJECT_GROUPS = [
   {
+    title: 'Kopify',
+    link: 'https://kopify-xi.vercel.app/',
+    video: 'videos/kopify-demo.mp4',
+  },
+  {
     title: 'Rhena Speech AI',
     link: 'https://rhena-ai.vercel.app/',
     images: [
