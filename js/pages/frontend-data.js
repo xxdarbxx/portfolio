@@ -1,5 +1,11 @@
 const PROJECT_GROUPS = [
   {
+    title: "Yuna's Flower Shop",
+    images: [
+      { src: 'images/front-end/yunaflowershop1.PNG' }, { src: 'images/front-end/yunaflowershop2.PNG' }, { src: 'images/front-end/yunaflowershop3.PNG' },
+    ]
+  },
+  {
     title: 'Kopify',
     link: 'https://kopify-xi.vercel.app/',
     video: 'videos/kopify-demo.mp4',
