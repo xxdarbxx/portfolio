@@ -1,5 +1,12 @@
 const PROJECT_GROUPS = [
   {
+    title: 'Aerith Vet Clinic',
+    link: 'https://xxdarbxx.github.io/vetwebsite',
+    images: [
+      { src: 'images/front-end/aerithvet1.PNG' }, { src: 'images/front-end/aerithvet2.PNG' }, { src: 'images/front-end/aerithvet3.PNG' },
+    ]
+  },
+  {
     title: "Yuna's Flower Shop",
     images: [
       { src: 'images/front-end/yunaflowershop1.PNG' }, { src: 'images/front-end/yunaflowershop2.PNG' }, { src: 'images/front-end/yunaflowershop3.PNG' },
