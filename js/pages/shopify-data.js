@@ -9,6 +9,5 @@ const PROJECT_GROUPS = [
   { title: 'Shopify Store 8', images: ['shopifya1.png','shopifya2.png','shopifya3.png','shopifya4.png','shopifya5.png','shopifya6.png'].map(f => ({ src: 'images/shopify/' + f })) },
   { title: 'Shopify Store 9', images: ['shopifyb1.png','shopifyb2.png','shopifyb3.png','shopifyb4.png','shopifyb5.png','shopifyb6.png'].map(f => ({ src: 'images/shopify/' + f })) },
   { title: 'Shopify Store 10', images: ['b1.jpg','b2.jpg','b3.jpg','b4.jpg','b5.jpg','b6.jpg'].map(f => ({ src: 'images/shopify/' + f })) },
-  { title: 'Shopify Store 11', images: ['f1.jpg','f2.jpg','f3.jpg','f4.jpg','f5.jpg','f6.jpg'].map(f => ({ src: 'images/shopify/' + f })) },
-  { title: 'Shopify Store 12', images: ['g1.jpg','g2.jpg','g3.jpg','g4.jpg','g5.jpg','g6.jpg'].map(f => ({ src: 'images/shopify/' + f })) },
+  { title: 'Shopify Store 11', images: ['g1.jpg','g2.jpg','g3.jpg','g4.jpg','g5.jpg','g6.jpg'].map(f => ({ src: 'images/shopify/' + f })) },
 ];
