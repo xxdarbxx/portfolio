@@ -1,5 +1,17 @@
 const PROJECT_GROUPS = [
   {
+    title: 'Real Estate',
+    images: [
+      { src: 'images/front-end/realestate1.PNG' }, { src: 'images/front-end/realestate2.PNG' }, { src: 'images/front-end/realestate3.PNG' }, { src: 'images/front-end/realestate4.PNG' },
+    ]
+  },
+  {
+    title: 'Sampaloc Hotel',
+    images: [
+      { src: 'images/front-end/sampalochotel1.PNG' }, { src: 'images/front-end/sampalochotel2.PNG' }, { src: 'images/front-end/sampalochotel3.PNG' }, { src: 'images/front-end/sampalochotel4.PNG' },
+    ]
+  },
+  {
     title: 'Aerith Vet Clinic',
     link: 'https://xxdarbxx.github.io/vetwebsite',
     images: [
