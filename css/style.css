@@ -268,6 +268,7 @@ header{
 .project-group__head{ display:flex; align-items:center; justify-content:space-between; gap:1rem; margin-bottom:1.1rem; flex-wrap:wrap; }
 .project-group__head h3{ font-size:1.25rem; }
 .project-group__head a{ font-size:.82rem; color: var(--accent-2); font-weight:600; display:inline-flex; align-items:center; gap:.4rem; }
+.project-group__desc{ color: var(--text-dim); font-size:.92rem; max-width:640px; margin:-.5rem 0 1.1rem; }
 .project-group__count{ color: var(--text-faint); font-size:.78rem; }
 
 .project-video{ border-radius: var(--radius-sm); overflow:hidden; border:1px solid var(--border); background:#000; }

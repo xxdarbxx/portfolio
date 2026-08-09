@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Automation Projects — Renz Oliver Maturino</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <a class="brand" href="index.html"><span class="brand__mark">RM</span><span>Renz Oliver Maturino<small>Full Stack Developer and Virtual Assistant</small></span></a>
+    <nav class="navlinks">
+      <a href="index.html#home">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#education">Education</a>
+      <a href="index.html#certificates">Certificates</a>
+      <a href="index.html#skills">Skills</a>
+      <a href="portfolio.html" class="active">Portfolio</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <div class="navcta"><a href="index.html#contact" class="btn sm ghost">Contact Me</a><button class="menu-btn" aria-label="Toggle menu"><i class="fas fa-bars"></i></button></div>
+  </div>
+</header>
+
+<main>
+<section class="page-hero">
+  <div class="wrap">
+    <div class="breadcrumb"><a href="portfolio.html">Portfolio</a> <i class="fas fa-chevron-right" style="font-size:.65rem;"></i> <span>AI Automation</span></div>
+    <span class="eyebrow">Development</span>
+    <h1 class="section-title">My <span>AI Automation</span> Projects</h1>
+    <p class="section-sub mb-0">Automated workflows connecting AI models with everyday tools like email, chat, and CRMs.</p>
+  </div>
+</section>
+<section style="padding-top:1rem;">
+  <div class="wrap"><div id="gallery-container"></div></div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap footer__row">
+    <p>&copy; 2026 Renz Oliver Maturino. All rights reserved.</p>
+    <div class="social"><a href="mailto:renzmaturino28@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a><a href="index.html" aria-label="Home"><i class="fas fa-house"></i></a></div>
+  </div>
+</footer>
+
+<a href="#home" class="scrolltop" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></a>
+
+<script src="js/pages/ai-automation-data.js"></script>
+<script src="js/gallery.js"></script>
+<script>renderProjectGroups('#gallery-container', PROJECT_GROUPS);</script>
+<script src="js/main.js"></script>
+</body>
+</html>
