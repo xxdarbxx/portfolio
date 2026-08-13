@@ -11,4 +11,5 @@ const PROJECT_GROUPS = [
   { title: 'Shopify Store 10', images: ['b1.jpg','b2.jpg','b3.jpg','b4.jpg','b5.jpg','b6.jpg'].map(f => ({ src: 'images/shopify/' + f })) },
   { title: 'Shopify Store 11', images: ['g1.jpg','g2.jpg','g3.jpg','g4.jpg','g5.jpg','g6.jpg'].map(f => ({ src: 'images/shopify/' + f })) },
   { title: 'Shopify Store 12 - Northside Music Store', images: ['northsidemusic1.PNG','northsidemusic2.PNG','northsidemusic3.PNG','northsidemusic4.PNG'].map(f => ({ src: 'images/shopify/' + f })) },
+  { title: 'Shopify 13 - www.yicaprints.site', link: 'https://www.yicaprints.site', images: ['yicaprints1.PNG','yicaprints2.PNG','yicaprints3.PNG'].map(f => ({ src: 'images/shopify/' + f })) },
 ];
