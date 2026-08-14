@@ -10,7 +10,7 @@ const CERT_CATEGORIES = [
   },
   {
     slug: 'professional',
-    name: 'Professional Certificates & Digital Badges',
+    name: 'Professional Certificates',
     items: [
       { src: 'certificates/full-stack.png', label: 'Full-Stack Development' },
       { src: 'certificates/ibm-front-end.JPG', label: 'IBM Front-End Development' },
@@ -18,10 +18,6 @@ const CERT_CATEGORIES = [
       { src: 'certificates/Coursera/back-end-professional.jpg', label: 'Back-End Professional Certificate' },
       { src: 'certificates/Coursera/social-pro.jpg', label: 'Social Media Professional Certificate' },
       { src: 'certificates/google-pro.jpg', label: 'Google Professional Certificate' },
-      { src: 'images/badges/image.png', label: 'Meta — Front-End Developer (Digital Badge)' },
-      { src: 'images/badges/badge2.png', label: 'IBM — Web Development with HTML, CSS, JavaScript (Digital Badge)' },
-      { src: 'images/badges/badge3.png', label: 'IBM — Front-End Development with React (Digital Badge)' },
-      { src: 'images/badges/badge4.png', label: 'IBM — Introduction to Cybersecurity Tools & Cyber Attacks (Digital Badge)' },
     ]
   },
   {
