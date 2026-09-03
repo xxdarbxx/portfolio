@@ -4,7 +4,7 @@ function renderProjectGroups(containerSelector, groups) {
   container.innerHTML = groups.map((group, gi) => `
     <div class="project-group reveal" data-lightbox-group>
       <div class="project-group__head">
-        <h3>${group.title}</h3>
+        <h3>${group.title}${group.date ? ` <span style="color:var(--text-faint); font-weight:400; font-size:.85rem;">— ${group.date}</span>` : ''}</h3>
         ${group.link ? `<a href="${group.link}" target="_blank" rel="noopener">visit site <i class="fas fa-arrow-up-right-from-square"></i></a>` : (group.video ? `<span class="project-group__count">video walkthrough</span>` : `<span class="project-group__count">${group.images.length} screenshot${group.images.length > 1 ? 's' : ''}</span>`)}
       </div>
       ${group.description ? `<p class="project-group__desc">${group.description}</p>` : ''}
