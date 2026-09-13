@@ -119,8 +119,6 @@ const CERT_CATEGORIES = [
       { src: 'certificates/building-interactive-website.png', label: 'Building Interactive Websites' },
       { src: 'certificates/Codecademy/ui-ux.png', label: 'Codecademy — UI/UX' },
       { src: 'certificates/codeliber1.png', label: 'Codeliber' },
-      { src: 'certificates/Coursera/IBM/Coursera LMPG7KTVP6HQ.pdf', pdf: true, label: 'IBM Course Certificate (PDF)' },
-      { src: 'certificates/Coursera/IBM/Coursera Q34BCC2DUEJW.pdf', pdf: true, label: 'IBM Course Certificate (PDF)' },
     ]
   },
   {

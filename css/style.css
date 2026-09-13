@@ -264,6 +264,12 @@ header{
 .breadcrumb{ color: var(--text-faint); font-size:.85rem; margin-bottom:1rem; display:flex; gap:.5rem; align-items:center; }
 .breadcrumb a:hover{ color: var(--accent-2); }
 
+.automation-section{ margin-bottom: 3.6rem; }
+.automation-section__head{ display:flex; align-items:baseline; gap:1rem; flex-wrap:wrap; margin-bottom:1.8rem; padding-bottom:1rem; border-bottom:1px solid var(--border); }
+.automation-section__head h2{ font-size:1.4rem; display:flex; align-items:center; gap:.6rem; }
+.automation-section__head h2 i{ color: var(--accent); font-size:1.1rem; }
+.automation-section__note{ color: var(--text-faint); font-size:.82rem; }
+
 .project-group{ margin-bottom: 3.4rem; }
 .project-group__head{ display:flex; align-items:center; justify-content:space-between; gap:1rem; margin-bottom:1.1rem; flex-wrap:wrap; }
 .project-group__head h3{ font-size:1.25rem; }

@@ -1,7 +1,5 @@
-function renderProjectGroups(containerSelector, groups) {
-  const container = document.querySelector(containerSelector);
-  if (!container) return;
-  container.innerHTML = groups.map((group, gi) => `
+function projectGroupHTML(group) {
+  return `
     <div class="project-group reveal" data-lightbox-group>
       <div class="project-group__head">
         <h3>${group.title}${group.date ? ` <span style="color:var(--text-faint); font-weight:400; font-size:.85rem;">— ${group.date}</span>` : ''}</h3>
@@ -22,8 +20,10 @@ function renderProjectGroups(containerSelector, groups) {
       </div>
       `}
     </div>
-  `).join('');
+  `;
+}
 
+function activateReveal(container) {
   container.querySelectorAll('.reveal').forEach(el => {
     if ('IntersectionObserver' in window) {
       const io = new IntersectionObserver((entries) => {
@@ -34,6 +34,28 @@ function renderProjectGroups(containerSelector, groups) {
       el.classList.add('in');
     }
   });
+}
+
+function renderProjectGroups(containerSelector, groups) {
+  const container = document.querySelector(containerSelector);
+  if (!container) return;
+  container.innerHTML = groups.map(group => projectGroupHTML(group)).join('');
+  activateReveal(container);
+}
+
+function renderProjectSections(containerSelector, sections) {
+  const container = document.querySelector(containerSelector);
+  if (!container) return;
+  container.innerHTML = sections.map(section => `
+    <div class="automation-section">
+      <div class="automation-section__head">
+        <h2><i class="${section.icon || 'fas fa-diagram-project'}"></i> ${section.platform} Automations</h2>
+        ${section.note ? `<span class="automation-section__note">${section.note}</span>` : ''}
+      </div>
+      ${section.groups.map(group => projectGroupHTML(group)).join('')}
+    </div>
+  `).join('');
+  activateReveal(container);
 }
 
 function renderCertCategories(containerSelector, categories) {
