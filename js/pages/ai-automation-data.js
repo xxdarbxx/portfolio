@@ -28,10 +28,18 @@ const AI_AUTOMATION_SECTIONS = [
       },
     ]
   },
-  // Zapier automations will go here once added.
-  // {
-  //   platform: 'Zapier',
-  //   icon: 'fas fa-bolt',
-  //   groups: []
-  // },
+  {
+    platform: 'Zapier',
+    icon: 'fas fa-bolt',
+    groups: [
+      {
+        title: 'Gmail to Google Sheets Email Tracking Automation',
+        description: 'Built an automated workflow using Zapier that captures new Gmail messages and automatically records the sender name, email address, subject, date, and email link in Google Sheets. This workflow reduces manual data entry and provides an organized system for tracking incoming emails.',
+        tools: ['Zapier', 'Gmail', 'Google Sheets'],
+        images: [
+          { src: 'images/ai-automation/zapier-gmail-sheets1.png' },
+        ]
+      },
+    ]
+  },
 ];
